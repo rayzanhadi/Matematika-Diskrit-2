@@ -1,0 +1,14 @@
+>>> #f(x) = x^3 - 3x^2 + 2
+>>>
+>>> def f_kubik(x):
+...     return x**3 - 3*x**2 + 2
+...
+>>> for i in range(6):
+...     print(f"x = {i}, f(x) = {f_kubik(i)}")
+...
+x = 0, f(x) = 2
+x = 1, f(x) = 0
+x = 2, f(x) = -2
+x = 3, f(x) = 2
+x = 4, f(x) = 18
+x = 5, f(x) = 52
